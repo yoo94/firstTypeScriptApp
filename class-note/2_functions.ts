@@ -1,5 +1,5 @@
 //함수의 파라미터의 타입을 정의
-function sum(a: number,b: number){
+function sum1(a: number,b: number){
     return a+b;
 }
 
@@ -14,3 +14,8 @@ function add(): number {
 function hap(a: number, b: number): number{
     return a+b;
 }
+
+function sum(a: number,b: number): number{
+    return a+b;
+}
+sum(1,2)
