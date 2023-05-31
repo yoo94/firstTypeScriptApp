@@ -7,9 +7,9 @@
  * @returns 
  */
 
-function sum(a,b){
+function sum2(a,b){
     return a+b;
 }
 
 // js는 이게 잘못됐다고 해주진 않지만 -> @ts-check 이걸 넣어주면 타입스크립트처럼 해줌
-sum(10,20)
+sum2(10,20)
