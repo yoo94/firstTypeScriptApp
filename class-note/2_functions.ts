@@ -19,3 +19,9 @@ function sum(a: number,b: number): number{
     return a+b;
 }
 sum(1,2)
+
+// 함수의 옵셔널 파라미너
+function log(a:string, b:string, c?:string){
+
+}
+log('hello world','dd');
