@@ -56,11 +56,11 @@ interface Person1{
     age:number;
 }
 
-interface Developer extends Person{
+interface Developer2 extends Person1{
     language : string;
 }
 
-var captain : Developer = {
+var captain : Developer2 = {
     language:'ts',
     age:100,
     name:'캡틴'
