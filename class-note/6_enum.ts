@@ -31,6 +31,6 @@ function askQ(answer: Answer) {
     }
 }
 
-askQ('예스')
-askQ('YES')
+// askQ('예스')
+// askQ('YES')
 askQ(Answer.Yes);

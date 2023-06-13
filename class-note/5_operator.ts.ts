@@ -42,4 +42,5 @@ function askSomeone2(someone: Developer & Person) {
     someone.age;
     someone.skill;
 }
+// 인터섹션은 셋다 보내야 함
 askSomeone2({ name: 'dd', age: '웹!' ,skill:'dd'});
